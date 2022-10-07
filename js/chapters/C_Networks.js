@@ -142,13 +142,14 @@ SLIDES.push(
 			fullscreen: true,
 			network: {
 				"contagion":0.5,
-				"peeps":[[141,99,0],[444,373,1],[442,103,1],[144,371,0]],
-				"connections":[[2,1,0],[3,2,0]]
+				"peeps":[[141,99,1],[444,373,0],[442,103,0],[144,371,0]], //z is the color
+				"connections":[[2,0,0],[3,0,0]] //connection from one character order to the other; 
+				//x, y is character order
 			},
 			options:{
-				infectedFrame: 2,
+				infectedFrame: 2, //color of peep
 				scale: 2,
-				_bottle: true
+				_bottle: false
 			}
 		}
 
