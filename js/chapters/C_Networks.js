@@ -208,7 +208,7 @@ SLIDES.push(
 			options:{
 				infectedFrame: 2,
 				scale: 1.5,
-				_bottle: true
+				_bottle: false
 			}
 		},
 
